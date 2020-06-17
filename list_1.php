@@ -1,5 +1,5 @@
 <?php
-  // Svistunova
+  // Lazebnikova
   $f = fopen('log.txt', 'r');
   $list = '';
   $list .= '<table>';
