@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <?php
 
-    // Svistunova
+    // Lazebnikova
     // https://php-study1-gossoudarev.c9users.io/students/Svistunova/logf/index.php
     echo "<link rel='stylesheet' href='style.css'>";
     
