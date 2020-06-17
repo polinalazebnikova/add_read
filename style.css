@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    background: #FFE2DF;
+    font-family: sans-serif;
+    text-align: center;
+    color: #590210;
+}
+
+.box {
+    width: 80%;
+    padding: 0% 10%;
+    text-align: center;
+}
+
+.box input[type="text"] {
+     width: 100%;
+     border: 0;
+     background: none;
+     margin: 5px auto;
+     text-align: center;
+     border: 2px solid #E8A0AB;
+     outline: none;
+     color: black;
+     border-radius: 10px;
+     transition: 0.25s;
+}
+.box textarea[id="message"]{
+    width: 100%;
+     border: 0;
+     background: none;
+     margin: 5px auto;
+     text-align: center;
+     border: 2px solid #E8A0AB;
+     outline: none;
+     color: black;
+     border-radius: 10px;
+     transition: 0.25s;
+    height: 20%;
+}
+
+.box input[type="text"]:focus{
+    width: 100%;
+    border-color: #E8707B;
+}
+.box textarea[type="text"]:focus{
+    width: 100%;
+    border-color: #E8707B;
+}
+
+.box button[type="submit"]{
+     border: 0;
+     background: none;
+     margin: 20px auto;
+     text-align: center;
+     border: 2px solid #E8707B;
+     outline: none;
+     color: black;
+     border-radius: 10px;
+     transition: 0.25s;
+     cursor: pointer;
+}
+.box button[type="submit"]:hover{
+    background: #E8707B;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #E8707B;
+    border-radius: 10px;
+    padding: 3px;
+}
+td, tr, th {
+    width: 33%;
+    border: 1px solid #E8707B;
+    margin: 2px;
+}
